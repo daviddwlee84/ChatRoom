@@ -1,0 +1,29 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "a sample chatroom socket.io app with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddwlee84/ChatRoom.git"
+  },
+  "keywords": [
+    "chatroom",
+    "socket.io",
+    "express"
+  ],
+  "author": "David Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviddwlee84/ChatRoom/issues"
+  },
+  "homepage": "https://github.com/daviddwlee84/ChatRoom#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
